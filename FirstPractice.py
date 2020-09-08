@@ -1,7 +1,8 @@
 def parOimpar(num):
     respuesta = " "
     if num % 2 != 0:
-        respuesta = "Par"
+        respuesta = "par"
     else:
         respuesta = "impar"
+
     return respuesta
