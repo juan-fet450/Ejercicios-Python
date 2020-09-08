@@ -10,3 +10,9 @@ def parOimpar(num):
         respuesta = "impar"
 
     return respuesta
+
+def indicepalabra(palabra):
+    inicial = palabra[0]
+    final = palabra[len(palabra)-1]
+    return inicial+final
+
