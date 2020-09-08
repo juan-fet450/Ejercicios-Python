@@ -1,5 +1,7 @@
-def ejercicio1(x,y):
-    return x+y
-if __name__=="__ejercicio1__":
-    ejercicio1()
-
+def parOimpar(num):
+    respuesta = " "
+    if num % 2 != 0:
+        respuesta = "Par"
+    else:
+        respuesta = "impar"
+    return respuesta
