@@ -1,8 +1,8 @@
 import unittest
-from FirstPractice import saberEdad
+from FirstPractice import indicepalabra
 class MyTestCase(unittest.TestCase):
     def test_ejercicio1(self):
-        self.assertEqual(72, saberEdad(0,1998))
+        self.assertEqual("cs", indicepalabra("coronavirus"))
 
 
 if __name__ == '__main__':
